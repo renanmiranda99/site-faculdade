@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+    <body><!--NAVBAR-->
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+            
+            <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <img src="fotos/reciclagem.png" alt="" srcset="">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">INÍCIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">SOBRE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cadastro.html">CADASTRO</a>
+                </li>
+                
+              </ul>
+            </div>
+            </nav>
+          </nav>
+        </header>
+
+        <main>
+            
+            <form id="formulario"><!--FORMULÁRIO-->
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                  </div>
+                  <div class="col-6">
+                    <h2>Cadastro</h2>
+                    <br>
+                    <form id="vagaForm">
+                      <label for="email">Email</label>
+                      <input type="text" placeholder="seuemail@gmail.com" id="email" required />
+
+                      <label for="endereco">Endereço:</label>
+                      <textarea id="endereco" placeholder="Rua , nº 0, Estado, Cidade" required></textarea>
+                      <button type="button" onclick="cadastrarDados()">Salvar</button>
+                    </form>
+                  <br>
+                  </div>
+                  <div class="col">
+                </div>
+                
+                </div>
+                </form>
+                <br>
+                <h2>Seus Dados:</h2>
+                <ul id="listaDados"></ul>
+                
+        </main>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <footer>
+          <p>&copy; 2023 Renan Miranda. Todos os direitos reservados.</p><!--MEUS LINKS-->
+          <a href="https://www.instagram.com/mirarenan/" target="_blank"><img src="fotos/instagram.png" alt=""> </a> 
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="fotos/whatsapp.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/renanmiranda99/" target="_blank"><img src="fotos/linkedin.png" alt=""></a>   
+      </footer>
+    </body>
+</html>

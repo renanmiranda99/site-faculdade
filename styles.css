@@ -1,0 +1,138 @@
+@media (max-width: 400px){ /*Media queries*/
+    .texto p, h1, h3 {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 300px){ /*Media queries*/
+    .texto p, h1, h3 {
+        font-size: 70%;
+    }
+}
+
+body{
+    width: 100%; 
+    max-width: 1920px; 
+    margin: 0 auto; 
+}
+
+.texto{
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    max-width: 800px;
+}
+
+.texto-explicativo{
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    max-width: 800px;
+}
+
+.conteudo{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.texto-sobre h1{
+    font-size: 30px;
+}
+
+.texto button{
+    border: 0;
+    background-color: #069539;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 700px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+}
+
+form{
+    padding: 120px;
+}
+
+.card-body{
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    max-width: 800px;
+    text-align: right;
+}
+
+footer{ 
+    background-color: #343A40;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    margin-top: 300px;
+}
+
+.imagens{ /*Grid layout*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px;
+}
+
+.imagens img {
+    margin-right: 20px;
+    border-radius: 10px;
+    max-width: 90%; 
+    height: auto;
+}
+
+/**/
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+form {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+  
+button {
+    background-color: #069539;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+  
+  
+button:hover {
+    background-color: #069539;
+  }
+
+  
